@@ -15,7 +15,7 @@ const page = () => {
           gente que nos compra a nosotros!
         </p>
       </div>
-      <div className="lg:block lg:p-24">
+      <div className="lg:block p-10 lg:p-24">
         <Image src={aboutImg} />
       </div>
     </div>
