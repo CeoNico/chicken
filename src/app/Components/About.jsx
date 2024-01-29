@@ -7,10 +7,7 @@ import { motion } from 'framer-motion'
 const About = () => {
   return (
     <div className="h-fit w-full grid grid-cols-1 lg:grid-cols-2 gap-2">
-      <motion.div
-      initial={{opacity: 0, x:"-100vw"}}
-      whileInView={{opacity: 1, x:0}}
-      transition={{duration: 1}}
+      <div
        className=" text-center lg:px-24 p-6">
         <h1 className="font-bold text-2xl text-red-600 lg:text-3xl">
           Solamente Pollo de Calidad
@@ -29,7 +26,7 @@ const About = () => {
         <div className="mt-5">
           <Button href="/about">Sobre Nosotros</Button>
         </div>
-      </motion.div>
+      </div>
       <div className="p-10 hidden lg:block">
         <Image className="rounded-xl shadow-xl shadow-black" src={aboutImg} />
       </div>
