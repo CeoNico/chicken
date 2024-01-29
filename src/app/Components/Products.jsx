@@ -11,7 +11,7 @@ const Products = () => {
       <motion.div
         initial={{ opacity: 0, x: "-100vw" }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.7, duration: 0.5 }}
+        transition={{ duration: 0.8 }}
         className="p-4 text-center"
       >
         <h1 className="font-bold text-2xl text-red-600 ">
@@ -24,7 +24,7 @@ const Products = () => {
       <motion.div
         initial={{ opacity: 0, x: "-100vw" }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.9, duration: 0.5 }}
+        transition={{ delay: 0.2, duration: 1 }}
         className="grid grid-cols-1 lg:grid-cols-3 p-10"
       >
         <Image alt="Image of raw chicken wings" src={patitasImg} />

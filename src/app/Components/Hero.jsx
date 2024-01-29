@@ -7,12 +7,12 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <motion.main
-      initial={{ opacity: 0, x: "-100vw" }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: "-100vh" }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center flex-col h-screen lg:h-fit lg:pb-44 text-center border-t-2 border-t-black/50"
+      className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center flex-col lg:h-screen h-96 lg:pb-44 text-center border-t-2 border-t-black/50"
     >
-      <div className="h-full w-full pl-6 pt-10 hidden lg:flex">
+      <div className="h-fit w-full pl-6 -mt-20 hidden lg:flex">
         <Image
           className="shadow-xl shadow-black rounded-xl"
           alt="Chicken laying next to an egg"
