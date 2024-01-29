@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center flex-col h-96 lg:h-fit lg:pb-44 text-center border-t-2 border-t-black/50">
+    <main className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center flex-col h-screen lg:h-fit lg:pb-44 text-center border-t-2 border-t-black/50">
       <div className="h-full w-full pl-6 pt-10 hidden lg:flex">
         <Image className="shadow-xl shadow-black rounded-xl" alt="Chicken laying next to an egg" src={heroImg} />
       </div>
