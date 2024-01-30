@@ -14,7 +14,7 @@ const Footer = () => {
         <p className="text-white text-lg">
           Peru 89, General E Mosconi, Salta, Argentina 4562
         </p>
-        <p className="text-white text-lg">+54 387-353-7499</p>
+        <p className="text-white text-lg">+54 387-363-2940</p>
         <div className="grid grid-cols-2 gap-10 text-white mt-2">
           <BsFacebook size={30} className="cursor-pointer" />
           <BsWhatsapp size={30} className="cursor-pointer" />
